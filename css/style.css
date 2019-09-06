@@ -1,0 +1,305 @@
+body {
+  background-image: url("../images/fondo.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.portada {
+  background-image: url("../images/portada.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh; }
+  .portada div {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center; }
+  .portada h1 {
+    border-top: 3px solid #583F43;
+    border-bottom: 3px solid #583F43;
+    font-size: 50px;
+    color: white; }
+  .portada .socials {
+    width: 170px;
+    height: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .portada .socials div {
+      width: 50px;
+      height: 50px;
+      border: 1.5px solid #583F43;
+      border-radius: 50%; }
+      .portada .socials div:hover {
+        cursor: pointer;
+        background-color: rgba(88, 63, 67, 0.562); }
+      .portada .socials div i {
+        color: white;
+        font-size: 30px; }
+
+.subete {
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+  .subete img {
+    -webkit-filter: brightness(70%);
+    filter: brightness(70%); }
+  .subete p {
+    text-align: justify; }
+
+.row-restaurant, .row-hotel {
+  position: relative;
+  margin-top: 100px;
+  background-image: url("../images/restaurant-isla.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-filter: brightness(90%);
+  filter: brightness(90%);
+  height: 805px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end; }
+  .row-restaurant div, .row-hotel div {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    position: absolute;
+    max-width: 466px;
+    text-align: center; }
+    .row-restaurant div h2, .row-hotel div h2,
+    .row-restaurant div p,
+    .row-hotel div p {
+      font-size: 30px; }
+    
+    .row-restaurant div p,
+    .row-hotel div p {
+      position: relative;
+      top: 30px; }
+  .row-restaurant button, .row-hotel button {
+    border: none;
+    margin-top: 25px;
+    padding: 10px;
+    color: white;
+    border-radius: 4px;
+    background-color: #0087C1; }
+    .row-restaurant button:hover, .row-hotel button:hover {
+      background-color: #06aef7; }
+
+.row-hotel {
+  background-image: url("../images/hotel-isla.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-filter: brightness(80%);
+  filter: brightness(80%);
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start; }
+
+.section-reservas {
+  margin-top: 100px; }
+  .section-reservas h2 {
+    margin-bottom: 50px; }
+  .section-reservas .row-reservas {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    .section-reservas .row-reservas .reservas {
+      background-color: rgba(0, 0, 0, 0.5);
+      width: 340px;
+      height: 300px;
+      margin: 10px;
+      border: 1px solid transparent;
+      border-radius: 4px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      .section-reservas .row-reservas .reservas h2 {
+        margin-bottom: 25px;
+        color: #0087C1; }
+      .section-reservas .row-reservas .reservas ul {
+        padding-left: 0px;
+        width: 250px; }
+      .section-reservas .row-reservas .reservas ul li {
+        color: white;
+        font-size: 20px; }
+      .section-reservas .row-reservas .reservas button {
+        -ms-flex-item-align: end;
+        align-self: flex-end;
+        margin-top: 20px;
+        margin-right: 20px;
+        padding: 8px;
+        border: none;
+        color: white;
+        border-radius: 4px;
+        background-color: #0087C1; }
+        .section-reservas .row-reservas .reservas button:hover {
+          background-color: #07b1fa; }
+
+.row-footer {
+  background-color: rgba(0, 0, 0, 0.9);
+  width: 100%;
+  height: 270px;
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+  .row-footer h2 {
+    color: #0087C1;
+    margin-left: 15px; }
+  .row-footer .socials {
+    width: 270px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    text-align: center; }
+    .row-footer .socials div {
+      margin-top: 10px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: distribute;
+      justify-content: space-around; }
+      .row-footer .socials div i {
+        color: white;
+        font-size: 30px; }
+        .row-footer .socials div i:hover {
+          cursor: pointer;
+          color: #0087C1; }
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+h1 {
+  color: white;
+  font-family: "le-havre-thin", sans serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.20;
+  opacity: 1.00;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  letter-spacing: -0.72px;
+  word-spacing: 0.00px;
+  text-transform: none; }
+
+h2 {
+  color: white;
+  font-family: "le-havre-thin", sans serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.20;
+  opacity: 1.00;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  letter-spacing: -0.72px;
+  word-spacing: 0.00px;
+  text-transform: none; }
+
+h3 {
+  color: white;
+  font-family: "le-havre-thin", sans serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.20;
+  opacity: 1.00;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  letter-spacing: 0.00px;
+  word-spacing: 0.00px;
+  text-transform: none; }
+
+p {
+  color: white;
+  font-family: "proxima-nova-thin", sans serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.60;
+  opacity: 0.70;
+  margin-top: 0px;
+  margin-bottom: 25px;
+  letter-spacing: -0.30px;
+  word-spacing: -0.10px;
+  text-transform: none; }
+
+@media (max-width: 576px) {
+  .maravillate {
+    display: none; }
+  .row-restaurant, .row-hotel {
+    position: relative;
+    margin-top: 100px;
+    height: 250px; }
+    .row-restaurant div h2, .row-hotel div h2,
+    .row-restaurant div p,
+    .row-hotel div p {
+      font-size: 13px; }
+    
+    .row-restaurant div p,
+    .row-hotel div p {
+      position: relative;
+      top: 10px; }
+    .row-restaurant div button, .row-hotel div button {
+      padding: 4px;
+      margin-top: 0px; }
+  .row-footer {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; } }
